@@ -30,7 +30,7 @@ extension ProductListVC{
     }
     
     func initViewModel(){
-        viewModel.fetchProduct()
+        viewModel.fetchProducts()
     }
     
     func observeEvent(){

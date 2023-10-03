@@ -24,6 +24,7 @@
 		877178832ABC9B0C00F37134 /* MVVMPatternUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877178822ABC9B0C00F37134 /* MVVMPatternUITestsLaunchTests.swift */; };
 		87CD3A292ACBEABE003A30CB /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 87CD3A282ACBEABE003A30CB /* Kingfisher */; };
 		87CD3A2B2ACBEB0C003A30CB /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CD3A2A2ACBEB0C003A30CB /* UIImageView + Extension.swift */; };
+		87CD3A2E2ACC28BE003A30CB /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CD3A2D2ACC28BE003A30CB /* EndPointType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		877178802ABC9B0C00F37134 /* MVVMPatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMPatternUITests.swift; sourceTree = "<group>"; };
 		877178822ABC9B0C00F37134 /* MVVMPatternUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMPatternUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		87CD3A2A2ACBEB0C003A30CB /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
+		87CD3A2D2ACC28BE003A30CB /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +222,7 @@
 				87530FDC2AC2ED7600F11C06 /* Applications */,
 				87530FDA2AC2ED5E00F11C06 /* Constant */,
 				87530FDB2AC2ED7400F11C06 /* Extension */,
+				87CD3A2C2ACC28A6003A30CB /* Utility */,
 				87530FD92AC2ED5900F11C06 /* Helper */,
 				87530FD82AC2ED5600F11C06 /* Screens */,
 				87530FD72AC2ED4A00F11C06 /* Storyboard */,
@@ -244,6 +247,14 @@
 				877178822ABC9B0C00F37134 /* MVVMPatternUITestsLaunchTests.swift */,
 			);
 			path = MVVMPatternUITests;
+			sourceTree = "<group>";
+		};
+		87CD3A2C2ACC28A6003A30CB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				87CD3A2D2ACC28BE003A30CB /* EndPointType.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,6 +403,7 @@
 				87530FE62AC30D8200F11C06 /* Constant.swift in Sources */,
 				876E16B02AC370C2002F755D /* ProductListCell.swift in Sources */,
 				87530FE22AC2F02400F11C06 /* ProductModel.swift in Sources */,
+				87CD3A2E2ACC28BE003A30CB /* EndPointType.swift in Sources */,
 				877178622ABC9B0900F37134 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
